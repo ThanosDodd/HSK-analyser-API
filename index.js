@@ -5021,11 +5021,9 @@ app.post("/", (req, res) => {
     "做主",
   ];
 
-  // console.log(typeof req.body)
+  console.log(req.body)
 
   const data = JSON.parse(JSON.stringify(req.body)).test;
-
-  // console.log(data);
 
   const arZero = String(data).slice(0, 66).split("。");
 
