@@ -5135,4 +5135,10 @@ app.post("/", (req, res) => {
   res.status(201).json(matches);
 });
 
-module.exports = app;
+// Specify the port number
+const PORT = process.env.PORT || 3000;
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
