@@ -4,7 +4,7 @@ const cors = require("cors");
 
 // Allow requests from specific origin
 const corsOptions = {
-  origin: "https://hsk-text-analyser.vercel.app/",
+  origin: "https://hsk-text-analyser.vercel.app",
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
