@@ -127,7 +127,7 @@ app.post("/", (req, res) => {
 });
 
 // Specify the port number
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 // Start the server
 app.listen(PORT, () => {
