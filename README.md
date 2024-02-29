@@ -1,4 +1,4 @@
-Analyse Chinese (mandarin) text. Send your text and get a list of words distributed by HSK level.
+Analyse Chinese (Mandarin) text. Send your text and get a list of words distributed by HSK level.
 
 Send your text in JSON in the format:
 {"test":"your text here"}
