@@ -1,19 +1,16 @@
-HSK Text Analyzer API
-=====================
+# HSK Text Analyzer API
 
 This API allows users to analyze text input and categorize Chinese characters based on HSK levels (1–6).
 
-Features
---------
+## Features
 
-*   Accepts a POST request with a JSON payload containing text.
-*   Splits and processes the text to identify characters belonging to different HSK levels.
-*   Returns a JSON response with unique characters for each HSK level.
+- Accepts a POST request with a JSON payload containing text.
+- Splits and processes the text to identify characters belonging to different HSK levels.
+- Returns a JSON response with unique characters for each HSK level.
 
-* * *
+---
 
-Usage Instructions
-------------------
+## Usage Instructions
 
 ### 1\. API Endpoint
 
@@ -39,19 +36,16 @@ The API returns a JSON object where each key represents an HSK level (`one` to `
 
 ### 4\. Requirements
 
-*   The API is hosted on `https://hsk-analyser-api.onrender.com`
-*   You can see what it can do at: `https://hsk-text-analyser.vercel.app/`
-*   Ensure your request origin is allowed (CORS is restricted to specific origins).
+- Ensure your request origin is allowed (CORS is restricted to specific origins).
 
-* * *
+---
 
-Setup for Local Development
----------------------------
+## Setup for Local Development
 
 ### 1\. Prerequisites
 
-*   Node.js installed
-*   npm or yarn installed
+- Node.js installed
+- npm or yarn installed
 
 ### 2\. Installation
 
@@ -71,13 +65,14 @@ The server will be available at `http://localhost:3000`.
 
 Set the `PORT` variable in your `.env` file or pass it directly when running the server.
 
-* * *
+---
 
-Notes
------
+## Notes
 
-*   This API is configured to process Chinese text and categorize characters by HSK level.
-*   The character lists (`hskOne` to `hskSix`) are imported from the `wordLists.js` file.
-*   Bear in mind that the API is hosted on the free tier on Render so the first call may be unsuccessful as the server may have spun down. Wait a minute and try again.
+- The API is hosted on `https://hsk-analyser-api.onrender.com`
+- You can see what it can do at: `https://hsk-text-analyser.vercel.app/`
+- This API is configured to process Chinese text and categorize characters by HSK level.
+- The character lists (`hskOne` to `hskSix`) are imported from the `wordLists.js` file.
+- Bear in mind that the API is hosted on the free tier on Render so the first call may be unsuccessful as the server may have spun down. Wait a minute and try again.
 
-* * *
+---
