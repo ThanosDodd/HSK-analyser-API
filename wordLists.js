@@ -5015,4 +5015,4 @@ const hskOne = [
     "做主",
   ];
 
-  module.exports = { hskOne, hskTwo, hskThree, hskFour, hskFive, hskSix };
+  export default { hskOne, hskTwo, hskThree, hskFour, hskFive, hskSix };

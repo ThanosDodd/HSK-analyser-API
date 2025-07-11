@@ -17,14 +17,16 @@ const corsOptions = {
 const JSON_LIMIT = "1mb";
 
 // ---------- 2. DATA ---------------------------------------------------
-import {
+import wordLists from './wordLists.js';
+
+const {
   hskOne,
   hskTwo,
   hskThree,
   hskFour,
   hskFive,
   hskSix,
-} from "./wordLists.js";
+} = wordLists;
 
 // Convert arrays → Sets once at start-up for O(1) look-ups
 const hskSets = {
